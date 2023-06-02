@@ -7,7 +7,7 @@ export const website = 'https://sveltekit-blog-template.vercel.app'
 
 export const firstName = 'Pigeon'
 export const lastName = 'Dev'
-export const name = `${firstName} ${lastName}`
+export const name = `The ${firstName} ${lastName}`
 
 // Used for the landing page & footer of posts
 export const avatar = 'https://api.lorem.space/image/face?w=250&h=250'

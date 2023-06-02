@@ -2,14 +2,14 @@
   import ArrowRightIcon from '$lib/components/ArrowRightIcon.svelte'
   import PostsList from '$lib/components/PostsList.svelte'
   import SocialLinks from '$lib/components/SocialLinks.svelte'
-  import { avatar, bio, name } from '$lib/info.js'
+  import { bio, name } from '$lib/info.js'
 
   /** @type {import('./$types').PageData} */
   export let data
 </script>
 
 <svelte:head>
-  <title>{name}</title>
+  <title>The {name}</title>
   <meta name="description" content={bio} />
 </svelte:head>
 
@@ -18,7 +18,7 @@
   <section class="flex flex-col items-center gap-16 pt-8 pb-16">
     <div class="flex flex-col items-center w-full gap-6 rounded-lg">
       <img
-        src={avatar}
+        src="https://avatars.githubusercontent.com/u/95161388?v=4"
         alt={name}
         class="mx-auto rounded-full w-36 h-36 ring-2 ring-zinc-200 dark:ring-zinc-700"
       />
